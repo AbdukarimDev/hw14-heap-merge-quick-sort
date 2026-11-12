@@ -1,0 +1,60 @@
+Data Size : 1000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        16839          0.0408      24             OK
+Merge Sort       8702           0.0432      4528           OK
+Quick (First)    10931          0.0297      960            OK
+Quick (Random)   11267          0.0353      1056           OK
+Quick (Median3)  11042          0.0291      864            OK
+
+Data Size : 2000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        37734          0.1002      24             OK
+Merge Sort       19393          0.0985      8576           OK
+Quick (First)    25133          0.0740      1200           OK
+Quick (Random)   23823          0.0910      1056           OK
+Quick (Median3)  22937          0.0727      864            OK
+
+Data Size : 4000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        83428          0.2325      24             OK
+Merge Sort       42835          0.2572      16624          OK
+Quick (First)    53612          0.1610      1248           OK
+Quick (Random)   64671          0.1860      1536           OK
+Quick (Median3)  51418          0.1671      1008           OK
+
+Data Size : 8000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        182937         0.5014      24             OK
+Merge Sort       93627          0.4862      32672          OK
+Quick (First)    123731         0.3378      1584           OK
+Quick (Random)   134945         0.3966      1488           OK
+Quick (Median3)  114403         0.4028      1056           OK
+
+Data Size : 16000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        397739         1.1151      24             OK
+Merge Sort       203244         1.0502      64720          OK
+Quick (First)    264540         0.7750      1440           OK
+Quick (Random)   261531         0.8527      1488           OK
+Quick (Median3)  248767         0.7748      1248           OK
+
+Data Size : 20000
+
+Algorithm        Comparisons    Time(ms)    Memory(Bytes)  Sorted
+----------------------------------------------------------------------
+Heap Sort        510709         1.3629      24             OK
+Merge Sort       260968         1.3629      80768          OK
+Quick (First)    352432         1.1267      1680           OK
+Quick (Random)   330889         1.3257      1680           OK
+Quick (Median3)  324155         1.1623      1248           OK
+
